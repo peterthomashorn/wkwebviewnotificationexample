@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  WKWebViewNotificationExample
 //
-//  Created by Private on 28.10.19.
+//  Created by Peter Thomas Horn on 28.10.19.
 //  Copyright © 2019 Peter Thomas Horn. All rights reserved.
 //
 
