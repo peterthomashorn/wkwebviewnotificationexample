@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A07A569B2368E5D90013CCE7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A07A569A2368E5D90013CCE7 /* README.md */; };
 		A07FC3FA23678FDE0046BAB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07FC3F923678FDE0046BAB4 /* AppDelegate.swift */; };
 		A07FC3FC23678FDE0046BAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07FC3FB23678FDE0046BAB4 /* ViewController.swift */; };
 		A07FC3FE23678FDF0046BAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07FC3FD23678FDF0046BAB4 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A07A569A2368E5D90013CCE7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A07FC3F623678FDE0046BAB4 /* WKWebViewNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07FC3F923678FDE0046BAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A07FC3FB23678FDE0046BAB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		A07FC3ED23678FDE0046BAB4 = {
 			isa = PBXGroup;
 			children = (
+				A07A569A2368E5D90013CCE7 /* README.md */,
 				A07FC3F823678FDE0046BAB4 /* WKWebViewNotificationExample */,
 				A07FC3F723678FDE0046BAB4 /* Products */,
 				A07FC40D236793F60046BAB4 /* Frameworks */,
@@ -141,6 +144,7 @@
 			files = (
 				A07FC3FE23678FDF0046BAB4 /* Assets.xcassets in Resources */,
 				A07FC40123678FDF0046BAB4 /* Main.storyboard in Resources */,
+				A07A569B2368E5D90013CCE7 /* README.md in Resources */,
 				A07FC40A236791890046BAB4 /* UserScript.js in Resources */,
 				A07FC40C236792A90046BAB4 /* Document.html in Resources */,
 			);
