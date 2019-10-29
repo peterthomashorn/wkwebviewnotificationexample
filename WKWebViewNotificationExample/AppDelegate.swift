@@ -15,10 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         UNUserNotificationCenter.current().delegate = self
         
-        // Request authorization to post notifications
-        let center = UNUserNotificationCenter.current()
-        
-        center.requestAuthorization(options: [.alert]) { (granted, error) in
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert]) { (granted, error) in
             // Enable or disable features based on authorization.
         }
     }
