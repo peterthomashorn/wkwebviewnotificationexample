@@ -13,7 +13,7 @@ class NotificationOverride {
         callback("granted");
     }
     
-    // Forward the notifiation text to the native app through the script message handler.
+    // Forward the notification text to the native app through the script message handler.
     constructor (messageText) {
         window.webkit.messageHandlers.notify.postMessage(messageText);
     }
