@@ -13,8 +13,10 @@ import UserNotifications
 class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        // Necessary for enabling control of notification presentation while app is in foreground (see below).
         UNUserNotificationCenter.current().delegate = self
         
+        // Request authorization for posting user notifications.
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert]) { (granted, error) in
             // Enable or disable features based on authorization.
         }
